@@ -1,38 +1,64 @@
 {
-  "sourceLanguage": "ja",
-  "version": "1.0",
-  "strings": {
-    "NSPhotoLibraryUsageDescription": {
-      "localizations": {
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "旅行中の写真・動画を読み込んでムービーを作るために使用します。"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Used to load your photos and videos to make movies."
+  "sourceLanguage" : "ja",
+  "strings" : {
+    "CFBundleDisplayName" : {
+      "comment" : "Bundle display name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Splice"
           }
         }
       }
     },
-    "NSPhotoLibraryAddUsageDescription": {
-      "localizations": {
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "書き出したムービーを写真ライブラリに保存するために使用します。"
+    "CFBundleName" : {
+      "comment" : "Bundle name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Splice"
+          }
+        }
+      }
+    },
+    "NSPhotoLibraryAddUsageDescription" : {
+      "comment" : "Privacy - Photo Library Additions Usage Description",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Used to save exported movies to your Photos library."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Used to save exported movies to your Photos library."
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書き出したムービーを写真ライブラリに保存するために使用します。"
+          }
+        }
+      }
+    },
+    "NSPhotoLibraryUsageDescription" : {
+      "comment" : "Privacy - Photo Library Usage Description",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Used to load your photos and videos to make movies."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "旅行中の写真・動画を読み込んでムービーを作るために使用します。"
           }
         }
       }
     }
-  }
+  },
+  "version" : "1.0"
 }

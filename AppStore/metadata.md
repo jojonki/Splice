@@ -22,8 +22,8 @@ App Store Connect の各項目を、日英とも貼り付けられる形でま�
 - **年齢制限**: 4+(ユーザー生成コンテンツ・ネット接続・課金なし)
 - **App のプライバシー**: 「データを収集しません」。通信処理も解析 SDK もない(`grep -rn "URLSession\|StoreKit" Splice` が空であること。住所の地名は端末の `CLGeocoder` による逆ジオコーディングのみで、Apple のサービスに位置情報を送るが、開発者は何も受け取らない)
 - **輸出コンプライアンス**: 暗号化は標準の OS 機能のみ(`project.yml` の `INFOPLIST_KEY_ITSAppUsesNonExemptEncryption` = NO で設定済み)
-- **サポート URL / マーケティング URL**: 必須。`https://jojonki.github.io/simple-tabi-cut/`(`docs/index.html`。GitHub Pages の Settings で `main` の `/docs` を公開する)
-- **プライバシーポリシー URL**: 必須。`https://jojonki.github.io/simple-tabi-cut/privacy.html`(`docs/privacy.html`。日英併記)
+- **サポート URL / マーケティング URL**: 必須。`https://jojonki.github.io/Splice/`(`docs/index.html`。GitHub Pages の Settings で `main` の `/docs` を公開する)
+- **プライバシーポリシー URL**: 必須。`https://jojonki.github.io/Splice/privacy.html`(`docs/privacy.html`。日英併記)
 - **著作権**: `2026 Junki Ohmura`
 - **スクリーンショット**: `AppStore/screenshots/final/` 下。「Dynamic Island (medium)」(必須)には `1206x2622/<ja|en-US>/`、「Dynamic Island (large)」には `1320x2868/<ja|en-US>/` を、番号順に 5 枚アップロードする。他のスロット(Face ID、Home Button など)は大きい方から自動で縮小される。
 
