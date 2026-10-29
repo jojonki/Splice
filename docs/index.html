@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Splice Support</title>
+<meta name="description" content="Support and frequently asked questions for Splice, an iPhone app that turns your photos and videos into one movie.">
+<style>
+  :root { --bg:#fff; --fg:#1d1d1f; --muted:#6e6e73; --accent:#0a6cf0; --line:#e5e5ea; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#111; --fg:#f5f5f7; --muted:#a1a1a6; --accent:#4c9bff; --line:#2c2c2e; }
+  }
+  body { margin:0; background:var(--bg); color:var(--fg);
+    font:17px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 20px 64px; }
+  h1 { font-size:2.2rem; margin:0 0 4px; }
+  h2 { font-size:1.35rem; margin:40px 0 8px; padding-top:24px; border-top:1px solid var(--line); }
+  h3 { font-size:1.05rem; margin:24px 0 4px; }
+  p, li { margin:8px 0; }
+  .tag { color:var(--muted); margin:0 0 24px; }
+  a { color:var(--accent); }
+  footer { margin-top:48px; color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Splice</h1>
+  <p class="tag">Turn your photos and videos into one movie. Support &amp; FAQ.</p>
+
+  <p>Splice is an iPhone app (iOS 17 or later) that gathers the photos and videos you already shot into scenes, lets you rearrange and trim them, and exports a single movie. It has no ads, no in-app purchases and no account.</p>
+
+  <h2>Contact support</h2>
+  <p>For questions, bug reports or feature requests, please
+    <a href="https://github.com/jojonki/simple-tabi-cut/issues/new">open an issue on GitHub</a>.
+    When reporting a problem, it helps to include your iPhone model, iOS version, and what you were doing when it happened.
+    Please do not attach personal photos or videos.</p>
+
+  <h2>Frequently asked questions</h2>
+
+  <h3>Splice says it cannot access my photos.</h3>
+  <p>Open the Settings app, tap Apps &rarr; Splice &rarr; Photos, and choose Full Access (or Limited Access and select the items you want to use). Splice can only use the photos and videos you allow.</p>
+
+  <h3>Some of my photos or videos are missing from the date range.</h3>
+  <p>Check the filters on the calendar screen (photos, videos, favorites). If you chose Limited Access, only the items you shared with Splice appear. Items stored in iCloud need to be downloaded first, so keep the app open and connected to the internet while Splice loads them.</p>
+
+  <h3>Scene names are missing or show only a time.</h3>
+  <p>Place names are looked up from each photo's location using Apple's built-in service, which needs an internet connection. Photos without location data are named by the time they were taken.</p>
+
+  <h3>Export is slow or fails with extra high quality.</h3>
+  <p>Extra high (4K) quality needs more time, memory and free storage, especially for long movies or many videos. Try standard quality, split the project into shorter movies, free up storage, and keep Splice open and the screen on while exporting.</p>
+
+  <h3>Does Splice change or delete my originals?</h3>
+  <p>No. Removing a clip from a movie only removes it from the movie. Your photo library is never modified, apart from saving the movie you export when you choose to.</p>
+
+  <h3>Where is my data stored? Do you collect anything?</h3>
+  <p>Everything is processed on your iPhone. Splice has no account, no analytics and no tracking, and sends nothing to the developer. Your projects are stored only on your device. The one network feature is the place-name lookup described above, which is handled by Apple.</p>
+
+  <h3>I deleted the app and lost my projects.</h3>
+  <p>Projects are stored inside the app on your device, so deleting the app deletes them. Movies you already saved to Photos are not affected.</p>
+
+  <h3>Which languages are supported?</h3>
+  <p>English and Japanese. Splice follows your iPhone's language, and you can switch manually from the ? menu on the main screen.</p>
+
+  <footer>
+    &copy; 2026 Junki Ohmura &middot;
+    <a href="https://github.com/jojonki/simple-tabi-cut">Source on GitHub</a>
+  </footer>
+</main>
+</body>
+</html>

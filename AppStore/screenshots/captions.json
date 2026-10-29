@@ -1,0 +1,30 @@
+{
+  "_comment": "Scripts/appstore_shots.py が読む。id は raw/<locale>/<id>.png。head は 2 行に手で改行した見出し(機械では折り返さない)、sub は 1 文で、描画側が折り返す。",
+  "shots": [
+    {
+      "id": "calendar", "color": [27, 98, 224],
+      "en": {"head": ["Pick the dates.", "That's the start."], "sub": "Tap a start and end day, and every photo and video from those days is pulled in."},
+      "ja": {"head": ["期間を選ぶだけで、", "素材が集まる。"], "sub": "カレンダーで開始日と終了日をタップ。その間に撮った写真・動画をまとめて読み込みます。"}
+    },
+    {
+      "id": "scenes", "color": [22, 112, 196],
+      "en": {"head": ["Grouped into scenes,", "named by place."], "sub": "Shooting gaps and distance split your footage into scenes, labeled with the place."},
+      "ja": {"head": ["シーンごとに整理。", "名前は撮影した場所。"], "sub": "撮影の間隔と移動距離をもとに、シーンに分けて地名を付けます。"}
+    },
+    {
+      "id": "detail", "color": [38, 92, 196],
+      "en": {"head": ["Keep the best part,", "add a caption."], "sub": "Preview any clip, cut a video down to the best part, and add a short caption."},
+      "ja": {"head": ["使いたい部分だけ、", "一言添えて。"], "sub": "素材をプレビューして、動画は使いたい部分だけに。一言キャプションも付けられます。"}
+    },
+    {
+      "id": "export", "color": [20, 120, 180],
+      "en": {"head": ["Save your movie,", "in high quality."], "sub": "Choose the quality and how long photos stay, then save to Photos or share it."},
+      "ja": {"head": ["ムービーとして保存。", "高画質にも対応。"], "sub": "画質や写真の長さを決めて、保存・共有。"}
+    },
+    {
+      "id": "help", "color": [52, 84, 190],
+      "en": {"head": ["Four steps.", "No editing skills."], "sub": "Pick, check, rearrange, export. Your originals are never touched."},
+      "ja": {"head": ["4 ステップで完成。", "編集の知識はいりません。"], "sub": "選ぶ、確認する、整える、書き出す。元の写真・動画は削除されません。"}
+    }
+  ]
+}
